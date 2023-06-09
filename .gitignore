@@ -1,5 +1,11 @@
 # Ignora la carpeta node_modules
-node_modules
+/node_modules
 
 # Ignora los archivos relacionados a API keys
-.env
+/*.env
+
+# Ignora configuracion de vista de carpeta
+.DS_Store
+
+# No se (buscar)
+npm-debug.log
